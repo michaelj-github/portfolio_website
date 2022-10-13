@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael J Murphy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Update these with different fonts if necessary -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/add8daabae.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <!-- <h1>Michael J Murphy's Portfolio Website</h1> -->
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.PNG" alt="logo" /></a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">What I do</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h2 class="section__title section__title--intro">
+        <strong>Michael J Murphy</strong>
+      </h2>
+      <p class="section__subtitle section__subtitle--intro">
+        a full stack software developer
+      </p>
+      <img
+        src="img/Michael_J_Murphy.jpg"
+        alt="a picture of Michael"
+        class="intro__img"
+      />
+    </section>
+
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Full Stack Development</h3>
+          <p>
+            Complete front-end to back-end software development using HTML, CSS,
+            JavaScript, React, Redux, BootStrap, NodeJS, Express, Python, C#,
+            Flask, SQL, PostgreSQL, and MySQL. I can also help with business
+            analysis, process modeling, and requirements elicitation.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Software QA and Testing</h3>
+          <p>
+            Software quality assurance including manual testing as well as
+            automated testing using tools such as Jest, Jasmine, Python
+            UnitTest, and Selenium. I can help with Test-Driven-Develpment and
+            unit testing, automated integration and regression testing, and user
+            acceptance testing.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Web Sites</h3>
+          <p>
+            A website for any purpose: a professional portofolio website such as
+            this one, an attractive website for a small business, non-profit, or
+            organization, or a secure, full-featured e-commerce site with a
+            database, shopping, and checkout. No project is too big or too
+            small.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn">See Some of My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">About me</h2>
+      <p class="section__subtitle section__subtitle--about">
+        A full stack web developer and sometime hiker
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          If I'm not responding to emails and text messages, I may be on a trail
+          somewhere in the mountains. I'll be back soon!
+        </p>
+        <p>
+          Back when I was working on my undergraduate degree, I had an
+          opportunity to help a small business with their accounting system. I
+          met their tax accountant, and he introduced me to some of his other
+          clients who also needed help with their accounting systems. By the
+          time I finished school, I had my own consulting business, which of
+          course I called Michael J Murphy Consulting.
+        </p>
+        <p>
+          A lot has happened since then, and along the way I’ve worked on some
+          interesting projects for large and small companies.
+        </p>
+        <p>
+          While the pandemic was raging, I was glad to be able to work from home
+          helping Zillow in their home buying business. When that came to an
+          end, I had an opportunity to take some courses to update my full stack
+          software engineering skill set. Now I’m available for consulting
+          engagements and open to employment opportunities on-site or remote.
+        </p>
+      </div>
+
+      <img
+        src="img/appalachian_trail.jpg"
+        alt="Michael hiking"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Some of my recent projects - more coming soon!
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="portfolio_item_01.html" class="portfolio__item">
+          <img
+            src="img/this_portfolio_website_project.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="portfolio_item_02.html" class="portfolio__item">
+          <img
+            src="img/art_explorer_fun_website.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="portfolio_item_03.html" class="portfolio__item">
+          <img src="img/findGARP_website.PNG" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="portfolio_item_04.html" class="portfolio__item">
+          <img src="img/concentration game.PNG" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="portfolio_item_05.html" class="portfolio__item">
+          <img
+            src="img/tv_show_search_website.PNG"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href=" mailto:michaeljmurphyconsulting@gmail.com" class="footer__link"
+        >michaeljmurphyconsulting@gmail.com</a
+      >
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/michaeljmurphylink/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.facebook.com/people/Michael-J-Murphy-Consulting/100086532783855/"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/mjm_consultants"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/michaelj-github"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

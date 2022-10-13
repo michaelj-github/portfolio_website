@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael J Murphy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Update these with different fonts if necessary -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/add8daabae.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <!-- <h1>Michael J Murphy's Portfolio Website</h1> -->
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="img/logo.PNG" alt="logo" /></a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">What I do</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- *********************************************************************** -->
+    <!-- Don't edit above this line in this file -->
+    <!-- *********************************************************************** -->
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h2 class="section__title section__title--intro">
+        Project title: <strong>Find GARP</strong>
+      </h2>
+      <p class="section__subtitle section__subtitle--intro">
+        a website for investors
+      </p>
+      <img
+        src="img/Michael_J_Murphy.jpg"
+        alt="a picture of Michael"
+        class="intro__img"
+      />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        Find GARP is a website for investors to help with identifying companies
+        with growing revenues and earnings.
+      </p>
+      <p>
+        <a href="http://findgarp.surge.sh/" class="footer__link">Find GARP</a>
+      </p>
+      <a href="http://findgarp.surge.sh/"
+        ><img
+          src="img/findGARP.png"
+          alt="find_garp image"
+          class="portfolio_img"
+      /></a>
+
+      <p>
+        This is another one of the projects I did for the Springboard Software
+        Engineering program. It includes a React front end with a NodeJS/Express
+        backend, and a PostgreSQL database. The backend provides an API for the
+        frontend and the database is maintained via the
+        <a href="https://finnhub.io/"> finnhub.io </a> API
+      </p>
+      <p>
+        Growth at a reasonable price (GARP) is a popular method used by
+        investors to find companies to invest in. Investors like to buy stocks
+        they believe they will be able to sell at a higher price at some point
+        in the future.
+      </p>
+
+      <p>
+        Share prices are determined by Earnings Per Share and the Price/Earnings
+        Ratio. The best companies for GARP investors are growing their revenues
+        and earnings and can be purchased when their Price/Earnings ratios are
+        not too high. Hence the name: Growth at a Reasonable Price.
+      </p>
+
+      <p>
+        Find GARP is a tool for identifying companies with growing revenues and
+        earnings. When you log in you will see a list of growing companies. You
+        can review some important financial details about the company and enter
+        your own estimates for future growth rates and P/E ratios as well as
+        some notes to explain your analysis..
+      </p>
+
+      <strong>Tech Stack</strong>
+
+      <ul>
+        <li>NodeJS</li>
+        <li>Express</li>
+        <li>React</li>
+        <li>PostgresSQL</li>
+        <li>HTML/CSS/JavaScript</li>
+        <li>Bootstrap</li>
+        <li>Bcrypt for passwords</li>
+        <li>JWT for tokens</li>
+        <li>Heroku for backend deployment</li>
+        <li>Surge for frontend deployment</li>
+      </ul>
+    </div>
+
+    <!-- *********************************************************************** -->
+    <!-- Don't edit below this line in this file -->
+    <!-- *********************************************************************** -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href=" mailto:michaeljmurphyconsulting@gmail.com" class="footer__link"
+        >michaeljmurphyconsulting@gmail.com</a
+      >
+
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/michaeljmurphylink/"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.facebook.com/people/Michael-J-Murphy-Consulting/100086532783855/"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/mjm_consultants"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/michaelj-github"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
