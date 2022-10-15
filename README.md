@@ -24,8 +24,8 @@ Thank you! Thank you! Thank you! to Kevin Powell at Scrimba and the instructors 
 
 Hosted on github pages at:
 
-    https://michaelj-github.github.io/portfolio_website/
+[michaelj-github.github.io/portfolio_website](https://michaelj-github.github.io/portfolio_website/ "Michael's portfolio website on GitHub")
 
 and also on my website at:
 
-    www.michaeljmurphy.com
+[www.michaeljmurphy.com](https://www.michaeljmurphy.com/ "Michael's Homepage")
